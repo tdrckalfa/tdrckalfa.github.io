@@ -35,12 +35,13 @@ body {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
-  background-color: white;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.4);
   display: flex;
   transition: 0.3s;
   flex-direction: column;
   border-radius: 10px;
-  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3);
 }
 
 .card[data-state="#about"] {
@@ -216,7 +217,7 @@ body {
 
 .card-buttons {
   display: flex;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 200);
   margin-top: auto;
   position: -webkit-sticky;
   position: sticky;
@@ -313,7 +314,7 @@ body {
   font-size: 11px;
   text-indent: -35px;
   border-radius: 50%;
-  color: rgba(134, 134, 134, 0.7);
+  color: #000000;
   background: linear-gradient(to bottom, #a0aee3 0%, #516acc 100%);
 }
 
@@ -338,7 +339,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 13px;
-  color: #6f6f7b;
+  color: #000000;
   font-family: "DM Sans", sans-serif;
   line-height: 1.6;
   cursor: pointer;
@@ -454,12 +455,9 @@ body {
               <circle cx="12" cy="10" r="3" /></svg>
             Lamongan, Jawa Timur
           </div>
-          <div class="card-contact" href="https://t.me/theodorickalfa09">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
-              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
-              </svg>
-              @theodorickalfa09
-              </div>
+          <div class="card-contact">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" /></svg>+62 857-4665-7092</div>
           <div class="card-contact" href="mailto:alphakinggowner@gmail.com">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
